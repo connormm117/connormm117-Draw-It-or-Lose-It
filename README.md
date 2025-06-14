@@ -1,1 +1,12 @@
 # connormm117-Draw-It-or-Lose-It
+For this course, I submitted the completed software design document for Draw It or Lose It, which I created for The Gaming Room. The Gaming Room is a client that already has a multiplayer game on Android and wants to expand it to run on other platforms. The game is similar to Win, Lose or Draw, where players guess what is being drawn in a limited amount of time. My task was to design software that supports multiple instances of the game, allows for multiple teams and players, and is scalable enough for future cross-platform deployment.
+
+I think I did a good job outlining the domain model and explaining how the game, teams, and players interact. I used object-oriented principles effectively, including inheritance to reduce repetition and the Singleton pattern to ensure there’s only one instance of the game service. I also made sure to use clear terminology and structure so that both technical and non-technical stakeholders could understand the design.
+
+One thing I found helpful about working through the design document before writing code was that it helped me clearly think through the relationships and structure of the program. It made it easier to start coding because I already had a solid plan to follow, and I understood how the components needed to interact.
+
+If I could go back and revise one part of my document, I’d probably spend more time on the user interface and user experience side of things. Most of my focus was on the backend design, and I think I could have included more detail or visual elements about how the game would look and feel to users, especially since it's a multi-platform game.
+
+When interpreting the user's needs, I paid close attention to the fact that they wanted a scalable game that could support multiple users and platforms. That meant I needed to keep the design modular and efficient. Meeting user needs is important because if the design doesn’t reflect what they actually want or need, the final product won’t be effective or usable.
+
+My approach to software design started with analyzing the requirements, then creating a domain model to map out the key entities and their relationships. I used design patterns where they made sense and tried to think about future maintenance and scalability. Going forward, I’d continue to use this structured approach, but I’d also try to incorporate feedback loops during the design phase and use some Agile techniques to stay flexible for changes or improvements.
